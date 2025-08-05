@@ -2,8 +2,6 @@
 const burgerBtn = document.querySelector('.burger-menu')
 const bodyElem = document.querySelector('body')
 
-// for products carousel
-
 
 
 document.addEventListener('click', (event) => {
@@ -14,15 +12,13 @@ document.addEventListener('click', (event) => {
     bodyElem.classList.toggle('body-menu--opened')
   }
 
-
-
-
 });
+
+
 
 const swiper = new Swiper(".products__slider", {
   centeredSlides: true,
   slidesPerView: 3,
-  // slidesPerView: 'auto',
   spaceBetween: 0,
   loop: false,
   grabCursor: true,
@@ -34,6 +30,14 @@ const swiper = new Swiper(".products__slider", {
 });
 
 new Swiper('.about-product', {
+  slidesPerView: "auto",
+  spaceBetween: 16,
+  speed: 400,
+  centeredSlides: true,
+
+});
+
+new Swiper('.details__swiper', {
   slidesPerView: "auto",
   spaceBetween: 16,
   speed: 400,
