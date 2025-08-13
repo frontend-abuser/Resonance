@@ -711,7 +711,23 @@
 
   .about-product__img {
     max-width: 340px;
+  }
 
+  .details {
+    padding: 42px 0 80px;
+  }
+
+  .details__title {
+    font-weight: 600;
+    font-size: 42px;
+  }
+
+  .details__subititle {
+    font-size: 18px;
+  }
+
+  .details__swiper .swiper-wrapper {
+    padding: 0 20px;
   }
 }
 
@@ -729,6 +745,8 @@
     top: 170px;
     width: 140%;
   }
+
+  /* ====== products ====== */
 
   .products__slider {
     margin-top: -50px;
@@ -763,6 +781,8 @@
     font-size: 18px;
   }
 
+  /* ====== about ====== */
+
   .about-product {
     padding: 24px 0;
   }
@@ -784,41 +804,89 @@
     margin-right: 0px;
   }
 
+  /* ====== details ====== */
   .details {
-  padding: 42px 0 80px;
-}
-/* ===================== */
-.details__title {
-  font-weight: 600;
-  font-size: 42px;
-}
+    padding: 42px 0 80px;
+  }
 
-.details__subititle {
-  font-size: 18px;
-} 
+  .details__title {
+    font-weight: 600;
+    font-size: 42px;
+  }
 
-.details__swiper-wrapper {
-  width: 100%;
+  .details__subititle {
+    font-size: 18px;
+  }
+
+  .details__swiper .swiper-wrapper {
+    padding: 0;
+  }
+
+  .details__slide:last-child {
+    margin-right: 0px;
+  }
+
+  .details__swiper .swiper-slide {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* ====== buy ====== */
+
+  .buy__title {
+    margin-top: 42px;
+    font-size: 60px;
+  }
+
+  .buy__subititle {
+    font-size: 24px;
+    max-width: 372px;
+  }
+
+  /* ====== footer ====== */
+
+.footer .logo{
+  display: none;
 }
+  
+  .footer__title {
+    margin-top: 42px;
+    line-height: 1.42857;
+    max-width: 324px;
+  }
 
-.details__swiper .swiper-wrapper {
-  padding: 0;
-}
+  .footer__subtitle {
+    font-size: 18px;
+    max-width: 324px;
+    line-height: 1.5;
+  }
 
-.details__slide {}
 
-.details__slide:last-child {
-  margin-right: 0px;
-}
+  .footer__info {
+    width: 100%;
+    border-top: 1px solid #8B8782;
+    margin-top: 42px;
+  }
 
-.details__slide img {
-  width: 100%;
-  border-radius: 27px;
-}
+  .footer__info-inner {
+    padding: 16px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
-.details__swiper .swiper-slide {
-  width: 100%;
-  height: 100%;
-}
+  .footer__socials {
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  .socials__item {}
+
+  .socials__link {}
+
+  .socials__icon {
+    width: 26px;
+    height: 26px;
+  }
 
 }
