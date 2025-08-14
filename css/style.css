@@ -699,6 +699,14 @@
     transform: scale(1);
   }
 
+  .footer .logo {
+    display: none;
+  }
+
+  .footer__socials {
+    margin: 0 auto;
+    flex-direction: column;
+  }
 }
 
 
@@ -845,10 +853,10 @@
 
   /* ====== footer ====== */
 
-.footer .logo{
-  display: none;
-}
-  
+  .footer .logo {
+    display: none;
+  }
+
   .footer__title {
     margin-top: 42px;
     line-height: 1.42857;
@@ -880,6 +888,11 @@
     margin: 0 auto;
     flex-direction: column;
   }
+  
+  .footer__copyright{
+    text-align: center;
+  }
+
   .socials__item {}
 
   .socials__link {}
