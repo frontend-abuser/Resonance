@@ -1,0 +1,161 @@
+.main {}
+
+.compare {}
+
+.compare__inner {
+  margin: 0 auto;
+  padding: 80px 0;
+  max-width: 996px;
+}
+
+.compare__title {
+  font-weight: 600;
+  font-size: 56px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #52483e;
+  margin-bottom: 8px;
+}
+
+.compare__subtitle {
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: #8b8782;
+  margin-bottom: 42px;
+}
+
+.devices__table {
+  display: flex;
+  gap: 24px;
+}
+
+.devices__column {
+  border-radius: 24px;
+  width: 50%;
+  background: #fff;
+  padding: 24px 24px 60px;
+}
+
+.devices__header {
+  border-radius: 24px;
+  background: #f5f5f5;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.devices__title {
+  font-weight: 600;
+  font-size: 42px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #52483e;
+}
+
+.devices__img {
+  max-width: 300px;
+}
+
+.devices__price {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #8b8782;
+  margin-bottom: 16px;
+}
+
+.devices__buy-btn {
+  display: block;
+  border-radius: 24px;
+  padding: 10px 32px;
+  background: linear-gradient(180deg, #52483e 0%, #8b8782 100%);
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #fff;
+}
+
+.devices__characteristics {
+  margin-top: 42px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.devices__characteristics li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.devices__icon {
+  width: 32px;
+  height: 32px;
+}
+
+.devices__info {
+  text-align: center;
+  color: #666;
+}
+
+@media (max-width: 900px) {
+
+  .compare__inner {
+    margin: 0 auto;
+    padding: 42px 0;
+    max-width: 996px;
+  }
+
+  .compare__title {
+    font-size: 42px;
+    line-height: 1.42857;
+  }
+
+  .compare__subtitle {
+    font-size: 18px;
+
+  }
+
+  .devices__table {
+    gap: 0;
+  }
+
+.devices__column {
+  border-radius: 24px 0 0 24px;
+  padding: 24px 0 48px 8px;
+}
+
+.devices__column:nth-child(2){
+  border-radius: 0 24px 24px 0;
+  padding: 24px 8px 48px 0;
+}
+
+.devices__header {
+  padding: 0;
+  border-radius: 0;
+  background: inherit;
+}
+
+.devices__characteristics{
+  padding: 0 20px;
+}
+
+}
+
+@media (max-width: 700px) {
+  .devices__title{
+    font-size: 24px;
+  }
+  .devices__img {
+  max-width: 150px;
+}
+.devices__price{
+  font-size: 16px;
+}
+.devices__info{
+  font-size: 16px;
+}
+}
